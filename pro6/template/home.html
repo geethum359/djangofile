@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Page 1: Home Page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis libero asperiores odio enim laboriosam, ipsam minus dolores? Ratione officiis, porro natus aperiam inventore tenetur eum cumque ullam laborum molestias nihil illo perferendis repudiandae dolorum. Inventore, ea deleniti quos eligendi voluptates culpa magni ab a deserunt laborum delectus aperiam corrupti quasi. Quae dicta corrupti et, quia quasi blanditiis quis, obcaecati dignissimos aliquam laudantium aspernatur eos numquam voluptatibus porro quaerat impedit aut dolores at assumenda enim. Nostrum est ipsum, perferendis laudantium facilis minima, sapiente earum itaque vel excepturi culpa natus cum porro dolorum eos. Eligendi, suscipit maxime. Voluptate molestias dignissimos rem quibusdam voluptates. Nesciunt fugit deserunt error veniam, sequi cum, ut, nostrum ipsa architecto inventore ducimus est minima consectetur sapiente ipsum ab. Excepturi aperiam ipsa expedita hic architecto. Sed autem in iste porro aliquam nihil eos optio harum hic iusto, laboriosam nesciunt temporibus necessitatibus recusandae quisquam!</p>
+    <a href="{% url 'about' %}"> Go To About</a><br>
+    <a href="{% url 'data' %}"> Go To Data</a>
+    <a href="{% url 'form1' %}"> Go To FormData</a>
+    {% block body_block %}
+    {% endblock %}
+</body>
+</html>

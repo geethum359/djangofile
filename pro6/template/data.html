@@ -1,0 +1,25 @@
+{% extends 'home.html' %}
+{% block body_block %}
+<h1>Page 3: Employe's Data</h1>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit neque possimus inventore alias nesciunt, ratione obcaecati unde assumenda recusandae corporis! Laboriosam, ullam distinctio!</p>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Age</th>
+        <th>Experience</th>
+    </tr>
+      {% for i in s  %}
+    <tr>
+        <td>{{i.id}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.department}}</td>
+        <td>{{i.age}}</td>
+        <td>{{i.experience}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

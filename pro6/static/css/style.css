@@ -1,0 +1,26 @@
+body{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+p{
+    width: 750px;
+    text-align: justify;
+}
+
+table tr th{
+    border: 2px solid red;
+}
+table tr td{
+    border: 2px solid red;
+}
+a{
+    font-size: 25px;
+    color: chocolate;
+}
