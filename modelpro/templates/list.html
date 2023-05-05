@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        {% for i in s %}
+        <li>{{i.emp_id}}</li>
+        <li>{{i.emp_name}}</l>
+        <li>{{i.place}}</li>
+        <li>{{i.company_name}}</li>
+        <li>{{i.designation}}</li>
+        <li>{{i.salary}}</li>
+       {%endfor%}
+    </ul>
+</body>
+</html>
