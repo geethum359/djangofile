@@ -1,10 +1,10 @@
-span{color: aqua;}
+/* span{color: aqua;}
 h1{color:black}
-nav ul li {display: inline-block;}
+nav ul li {display: inline-block;} */
 nav ul li a {
       display:block;
       padding: 5px;
-      color: white;
+      color:black;
       font-weight:800;
       text-transform:capitalize;
       margin: 0 10px;
