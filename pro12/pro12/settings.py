@@ -51,7 +51,10 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'pro12.urls'
-
+LOGIN_REDIRECT_URL='home'
+LOGOUT_REDIRECT_URL='login'
+LOGIN_URL='login'
+LOGOUT_URL='login'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -119,4 +122,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIR=[STATIC_DIR, ],
+STATICFILES_DIRS=[STATIC_DIR, ]
